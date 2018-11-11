@@ -1,3 +1,7 @@
+body {
+	$font-family-sans-serif: "Helvetica Neue", Arial, sans-serif,
+}
+
 .jumbotron {
 	background-image: url("https://media2.giphy.com/media/hL8a3mIQK8Ehy/giphy.gif?cid=3640f6095be81af64d51747541b3b19a");
 	background-repeat: no-repeat;
@@ -7,16 +11,24 @@
 	height: 480px;
 	text-align: center;
 	vertical-align: middle;
+	font-family: 'Abril Fatface', cursive;
 }
 
 .footer-middle {
 	margin: auto;
 }
 
-.jk-card {
-	text-aling: center;
+
+.photo {
+	height: 500px;
 }
 
-.justify{
-	text-aling: justify;
-}
+.container-fuild{ 
+	margin-top: 7%;
+ }
+
+
+
+/*To justify text
+ text-align: justify;
+    text-justify: inter-word;/**/
